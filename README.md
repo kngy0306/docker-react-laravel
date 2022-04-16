@@ -6,6 +6,16 @@
 docker-compose up -d --build
 ```
 
+## Nginx
+
+アクセスログ、エラーログはそれぞれ標準出力、標準エラー出力へのシンボリックリンク
+
+ログ確認
+
+```sh
+docker compose logs [-f] nginx
+```
+
 ## Laravel
 
 プロジェクト作成（version 8.x）
