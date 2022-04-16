@@ -43,3 +43,7 @@ docker-compose exec front yarn start
 `localhost:3000`にアクセスするとReactのウェルカムページが表示される
 
 開発用サーバーの停止は`control + c`
+
+## 参考リポジトリ
+
+https://github.com/shimotaroo/docker-nextjs-laravel-sample
