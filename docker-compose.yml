@@ -46,13 +46,14 @@ services:
     ports:
       - 3306:3306
     environment:
-      MYSQL_DATABASE: spa_app
-      MYSQL_USER: spa_app
+      MYSQL_DATABASE: nogi_fil
+      MYSQL_USER: nogi_fil
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
       TZ: "Asia/Tokyo"
     volumes:
       - db-volume:/var/lib/mysql:cached
+    platform: linux/amd64
 
 volumes:
   db-volume:
